@@ -175,7 +175,7 @@ body{
     color: var(--yellow);
 }
 .home p{
-    font-size: 2rem;
+    font-size: 2vw;
     color: #eee;
     padding: 1rem 0;
 }
@@ -364,6 +364,9 @@ font-weight: normal;
         }
         .portfolio .box-container .box{
             width: 100%;
+           .home p{
+            width:100%;
+        }
         }
        
     }
