@@ -121,7 +121,7 @@ header .navbar ul li a:hover{
 #menu{
     position: fixed;
     top: 2rem;
-    right: 2rem;
+    left: 2rem;
     background: #333;
     color: #ffff;
     cursor: pointer;
