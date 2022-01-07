@@ -22,7 +22,7 @@ scrollTop : $($(this).attr('href')).offset().top
 const rbtn = document.getElementById('resume');
 rbtn.addEventListener("click", () => {
     window.open(
-      "https://drive.google.com/file/d/1CbeSPN5nregIhE_Y1kARCcynI3amknZU/view?usp=sharing"
+     "My Resume.pdf"
     );
   });
 
