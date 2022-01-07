@@ -3,6 +3,7 @@ $(document).ready(function(){
         $(this).toggleClass('fa-times');
 $('header').toggleClass('toggle');    
     });
+
     $('window').on('scroll load',function(){
         $('#menu').removelass('fa-times');
         $('header').removeClass('toggle');
@@ -17,5 +18,14 @@ scrollTop : $($(this).attr('href')).offset().top
      'linear'
      );
     });
-
 });
+
+const allBtn = document.querySelectorAll(".back");
+const menuBtn = document.querySelector('.menuBtn');
+const headerBtn = document.querySelector('.headerBtn');
+allBtn.forEach(e => {
+    e.addEventListener('click', ()=>{
+        headerBtn.classList.toggle('toggle');    
+        menuBtn.classList.toggle('fa-times');
+    })
+})
